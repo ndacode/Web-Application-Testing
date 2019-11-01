@@ -7,3 +7,11 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+test ("round the bases", ()=> {
+  const {findAllByDisplayValue} = (<App/>)
+})
+
+test ( 'we found fouls', ()=> {
+  const {getByText} = ('foulsw')
+})
